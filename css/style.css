@@ -1,0 +1,188 @@
+*{
+	margin: 0;
+}
+body{
+	background: url(../images/Grilled-Beer-Can-Burgers-Traeger-Wood-Fired-Grills_RE_HE_M.jpg) no-repeat;
+	background-size: cover;
+	font-family: 'Slabo 27px', serif;
+}
+.container{
+	width: 1170px;
+	margin: 0px auto;
+}
+.header{
+	width: 1170px;
+	height: 120px;
+	text-align: center;
+	background-color: #f3f00fb3;
+}
+.logo{
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	position: fixed;
+}
+nav{
+	margin: 0;
+	text-align: right;
+}
+nav ul{
+	padding-top: 67px;
+	list-style: none;
+}
+nav ul li{
+	display: inline;
+	color: #1a1717;
+	background-color: #00fff6cc;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	background-size: 10px 20px;
+	margin-right: 10px;
+	border-radius: 5px;
+
+}
+nav ul li:hover{
+	cursor: pointer;
+	background-color: #afec0c99;
+	box-shadow: 9px 5px 3px;
+	transition: 0.4s;
+	text-shadow: 6px 6px 5px;
+
+}
+.content{
+	text-transform: capitalize;
+}
+.left{
+	background-color: #54bc2e4d;
+	color: #0c0e0d;
+	float: left;
+	padding-bottom: 414px;
+	padding-left: 107px;
+	width: 60%;
+	height:91%;
+	font-size: 36px;
+}
+.left p{
+	padding-top: 20%;
+	padding-left: 30%;
+}
+.right{
+	width: 361px;
+	height: 600px;
+	float: right;
+	color: black;
+	overflow: hidden;
+}
+.side{
+	width: 100%;
+	height: 68px;
+	border: 2px solid #10110f;
+	background-color:#0ff53ab3;
+}
+.side p{
+	text-align: center;
+	padding-top: 23px;
+}
+.fb{
+	width: 100%;
+	height: 68px;
+	border: 2px solid #10110f;
+	background-color: #5580c0b3;
+
+}
+.fb p{
+	text-align: center;
+	padding-top: 23px;
+
+}
+.blog{
+	width: 100%;
+	height: 68px;
+	border: 2px solid #10110f;
+	background-color: #22d7b799;
+
+}
+.blog p{
+	text-align: center;
+	padding-top: 23px;
+	
+}
+.link{
+	width: 100%;
+	height: 68px;
+	border: 2px solid #10110f;
+	background-color: #ca25ce99;
+
+}
+.link p{
+	text-align: center;
+	padding-top: 23px;
+	
+}
+.glink{
+	width: 100%;
+	height: 68px;
+	border: 2px solid #10110f;
+	background-color: #34d1a499;
+
+}
+.glink p{
+	text-align: center;
+	padding-top: 23px;
+	
+}
+.clink{
+	width: 100%;
+	height: 68px;
+	border: 2px solid #10110f;
+	background-color: #e30837b3;
+
+}
+.clink p{
+	text-align: center;
+	padding-top: 23px;
+	
+}
+.f{
+	width: 100%;
+	height: 68px;
+	border: 2px solid #10110f;
+	background-color: #7cf619b3;
+
+}
+.f p{
+	text-align: center;
+	padding-top: 23px;
+}
+.c{
+	width: 100%;
+	height: 90px;
+	border: 2px solid #10110f;
+	background-color: #7cf619b3;
+
+}
+.c p{
+	text-align: center;
+	padding-top: 23px;
+}
+footer{
+	width: 1170px;
+	height: 50px;
+	background-color: #0bf2b0;
+	border: 2px solid black;
+	text-align: center;
+	margin-top: 598px;
+	color: #0b0a0a;
+
+}
+footer p{
+	padding-top: 2px;
+	text-transform: capitalize;
+}
+.side:hover ,.fb:hover,.blog:hover,.link:hover,.glink:hover,.clink:hover,.f:hover,.c:hover{
+	cursor: pointer;
+	background-color: #fff;
+	transition: 0.3s;
+	box-shadow: 2px 3px 2px black;
+	border-radius: 15px;
+} 
